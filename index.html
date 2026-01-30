@@ -1,101 +1,121 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<title>Gary Transfer Alpine | Premium Alpine Transfers</title>
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="Premium alpine airport transfers to the French Alps. Reliable. Professional. Direct.">
+  <meta charset="UTF-8">
+  <title>Gary Transfer Alpine | Premium Alpine Transfers</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Gary Transfer Alpine provides premium airport and resort transfers to the French Alps. Reliable, professional, and direct chauffeur services.">
 
-<style>
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-  font-family: "Helvetica Neue", Arial, sans-serif;
-}
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
 
-body {
-  min-height: 100vh;
-  background: linear-gradient(135deg, #1e3c72, #2a5298);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: #ffffff;
-}
+    body {
+      font-family: "Segoe UI", Arial, sans-serif;
+      min-height: 100vh;
+      background: linear-gradient(135deg, #0b2a4a, #1e5fa3);
+      color: #ffffff;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
 
-.card {
-  background: rgba(0, 0, 0, 0.35);
-  backdrop-filter: blur(12px);
-  padding: 50px 60px;
-  border-radius: 14px;
-  max-width: 640px;
-  width: 90%;
-  text-align: center;
-  box-shadow: 0 25px 60px rgba(0,0,0,0.4);
-}
+    .wrapper {
+      max-width: 1100px;
+      width: 100%;
+      padding: 60px 30px;
+    }
 
-h1 {
-  font-size: 40px;
-  font-weight: 600;
-  margin-bottom: 18px;
-  letter-spacing: 0.5px;
-}
+    .card {
+      background: rgba(0, 0, 0, 0.45);
+      backdrop-filter: blur(12px);
+      border-radius: 16px;
+      padding: 60px;
+      box-shadow: 0 30px 80px rgba(0, 0, 0, 0.45);
+    }
 
-.subtitle {
-  font-size: 18px;
-  opacity: 0.9;
-  margin-bottom: 35px;
-}
+    h1 {
+      font-size: 3.2rem;
+      font-weight: 600;
+      letter-spacing: 1px;
+      margin-bottom: 15px;
+    }
 
-.points {
-  font-size: 16px;
-  line-height: 1.8;
-  margin-bottom: 40px;
-}
+    .tagline {
+      font-size: 1.2rem;
+      opacity: 0.9;
+      margin-bottom: 40px;
+    }
 
-.points strong {
-  display: block;
-}
+    .points {
+      font-size: 1.1rem;
+      line-height: 1.9;
+      margin-bottom: 45px;
+    }
 
-.status {
-  display: inline-block;
-  background: #ffffff;
-  color: #1e3c72;
-  padding: 14px 26px;
-  border-radius: 30px;
-  font-weight: 600;
-  font-size: 14px;
-  margin-bottom: 30px;
-}
+    .points span {
+      display: block;
+    }
 
-footer {
-  font-size: 13px;
-  opacity: 0.7;
-}
-</style>
+    .cta {
+      display: inline-block;
+      background: #e6c27a;
+      color: #1a1a1a;
+      padding: 14px 28px;
+      border-radius: 40px;
+      font-weight: 600;
+      text-decoration: none;
+      font-size: 1rem;
+    }
+
+    .cta:hover {
+      background: #f0d28f;
+    }
+
+    footer {
+      margin-top: 40px;
+      font-size: 0.85rem;
+      opacity: 0.7;
+    }
+
+    @media (max-width: 768px) {
+      .card {
+        padding: 40px 25px;
+      }
+
+      h1 {
+        font-size: 2.4rem;
+      }
+    }
+  </style>
 </head>
 
 <body>
-  <div class="card">
-    <h1>Gary Transfer Alpine</h1>
+  <div class="wrapper">
+    <div class="card">
+      <h1>Gary Transfer Alpine</h1>
 
-    <div class="subtitle">
-      Premium alpine airport transfers to the French Alps
+      <div class="tagline">
+        Premium alpine airport transfers to the French Alps
+      </div>
+
+      <div class="points">
+        <span>Reliable.</span>
+        <span>Professional.</span>
+        <span>Direct.</span>
+      </div>
+
+      <a class="cta" href="#">
+        Booking system launching shortly
+      </a>
+
+      <footer>
+        © Gary Transfer Alpine
+      </footer>
     </div>
-
-    <div class="points">
-      <strong>Reliable.</strong>
-      <strong>Professional.</strong>
-      <strong>Direct.</strong>
-    </div>
-
-    <div class="status">
-      Booking system launching shortly
-    </div>
-
-    <footer>
-      © Gary Transfer Alpine
-    </footer>
   </div>
 </body>
 </html>
